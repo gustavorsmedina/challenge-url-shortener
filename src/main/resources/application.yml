@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: url-shortener
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: db_urls
+      username: mongo
+      password: gustavo
+      authentication-database: admin
+url:
+#  In minutes
+  expiration-time: 1
